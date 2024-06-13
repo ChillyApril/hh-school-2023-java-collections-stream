@@ -7,6 +7,7 @@ public class Company {
   private String title;
   private Set<Vacancy> vacancies;
 
+  private final String sss = "sss";
   public Company(Integer id, String title, Set<Vacancy> vacancies) {
     this.id = id;
     this.title = title;
